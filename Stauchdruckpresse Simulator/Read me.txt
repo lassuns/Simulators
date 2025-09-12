@@ -1,3 +1,65 @@
+# ⚙️ Compression Machine Simulator
+
+## Project Overview
+
+Welcome to the Compression Machine Simulator! This Python-based project serves as a conceptual simulation of a compression machine. While the current version focuses on demonstrating my programming skills and the core principles involved, it offers a visual representation of material compression. Due to time constraints, the class structure is currently consolidated within a single file, though it's designed with modularity in mind for future enhancements.
 
 
-pip install -r requirements.txt
+## License
+
+This project is distributed under the MIT License. See the `LICENSE` file for more information.
+
+
+## Getting Started
+
+Follow these steps to get the Compression Machine Simulator up and running on your Linux (Ubuntu) system.
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed on your system:
+
+   1- Python 3: You can check your Python version by running:
+                                
+      python3 --version in Bash
+ 
+    2- Linux os
+
+### Installation & Setup
+
+
+1.  Create and Activate a Virtual Environment:
+    
+    It's highly recommended to use a virtual environment to manage project dependencies. This isolates the project's packages from your system's global Python packages.
+
+    bash
+    python3 -m venv venv
+    source venv/bin/activate
+   
+
+3.  Install Dependencies using the following command in Bash:
+    
+    pip install -r requirements.txt
+    
+
+### Running the Simulator
+
+Once the setup is complete, you can run the simulator.
+
+1.  Activate your virtual environment (if not already active):
+    bash
+    source venv/bin/activate
+    
+
+2.  Run the main simulator script:
+     
+    bash
+    python3 main.py
+    
+    The simulator window should now appear.
+
+3.  Deactivate the virtual environment:**
+    When you are finished using the simulator, you can exit the virtual environment:
+    bash
+    deactivate
+    
+
