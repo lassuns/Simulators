@@ -1,65 +1,25 @@
-# ⚙️ Compression Machine Simulator
+⚙️ Compression Machine Simulator
 
-## Project Overview
+1- Project Overview
 
-Welcome to the Compression Machine Simulator! This Python-based project serves as a conceptual simulation of a compression machine. While the current version focuses on demonstrating my programming skills and the core principles involved, it offers a visual representation of material compression. Due to time constraints, the class structure is currently consolidated within a single file, though it's designed with modularity in mind for future enhancements.
+This Python-based project simulates a compression machine, visually demonstrating the principles of material compression. It's a single-file application designed for modularity and future expansion.
 
+2- License
 
-## License
+This project is released under the MIT License. See the LICENSE file for details.
 
-This project is distributed under the MIT License. See the `LICENSE` file for more information.
+3- Getting Started
 
+To run the simulator, follow these steps on your Linux (Ubuntu) system.
 
-## Getting Started
+    Prerequisites: Ensure you have Python 3 installed.
 
-Follow these steps to get the Compression Machine Simulator up and running on your Linux (Ubuntu) system.
+    Run the Simulator:
 
-### Prerequisites
+        Navigate to the project directory.
 
-Before you begin, ensure you have the following installed on your system:
+        Activate the virtual environment: source venv/bin/activate
 
-   1- Python 3: You can check your Python version by running:
-                                
-      python3 --version in Bash
- 
-    2- Linux os
+        Run the main script: python3 main.py
 
-### Installation & Setup
-
-
-1.  Create and Activate a Virtual Environment:
-    
-    It's highly recommended to use a virtual environment to manage project dependencies. This isolates the project's packages from your system's global Python packages.
-
-    bash
-    python3 -m venv venv
-    source venv/bin/activate
-   
-
-3.  Install Dependencies using the following command in Bash:
-    
-    pip install -r requirements.txt
-    
-
-### Running the Simulator
-
-Once the setup is complete, you can run the simulator.
-
-1.  Activate your virtual environment (if not already active):
-    bash
-    source venv/bin/activate
-    
-
-2.  Run the main simulator script:
-     
-    bash
-    python3 main.py
-    
-    The simulator window should now appear.
-
-3.  Deactivate the virtual environment:**
-    When you are finished using the simulator, you can exit the virtual environment:
-    bash
-    deactivate
-    
-
+        Exit: When you are finished using the simulator, you can exit the virtual environment: run deactivate on Bash.
