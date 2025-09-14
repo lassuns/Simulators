@@ -78,9 +78,9 @@ class Logic:
         # Sound setup
         pygame.mixer.init()
         self.machine_sound = None
-        if os.path.exists('machine_sound.wav'):
+        if os.path.exists('sound.wav'):
             try:
-                self.machine_sound = pygame.mixer.Sound('machine_sound.wav')
+                self.machine_sound = pygame.mixer.Sound('sound.wav')
             except pygame.error:
                 print("Sound error: Could not load 'machine_sound.wav'.")
         else:
